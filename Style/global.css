@@ -1,0 +1,260 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+header {
+  width: 100%;
+  height: 80px;
+  background: #172035;
+}
+#logo {
+  width: 140px;
+  height: 80px;
+  position: absolute;
+}
+nav {
+  margin-left: 140px;
+  display: flex;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 2em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-right: 10px;
+  padding: 30px;
+}
+a:hover {
+  color: #eee;
+  background: #09568d;
+  height: 20px;
+}
+button {
+  width: 50%;
+  height: 50px;
+  background: #172035;
+  color: #fff;
+  font-size: 2em;
+  border: none;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #09560d;
+}
+h1 {
+  font-size: 4em;
+}
+h3 {
+  font-size: 2em;
+}
+p {
+  font-size: 2em;
+}
+#slideshow > img {
+  width: 100%;
+  height: 600px;
+  position: relative;
+  filter: brightness(40%);
+  opacity: 0.9;
+}
+#content {
+  position: absolute;
+  text-align: left;
+  margin-top: 320px;
+  margin-left: 380px;
+  color: #fff;
+  z-index: 1;
+}
+#courses .course {
+  display: flex;
+  flex-direction: column;
+  float: left;
+  margin-bottom: 100px;
+  margin-left: 50px;
+}
+#courses > h1 {
+  text-align: center;
+  margin: 40px auto;
+}
+.course > img {
+  margin-top: 100px;
+  margin-left: 100px;
+  width: 250px;
+}
+.course > button {
+  width: 250px;
+  margin-left: 100px;
+}
+.course > h2,
+h6 {
+  width: 240px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  padding: 10px;
+  margin-left: 100px;
+}
+.footer {
+  margin-top: 500px;
+  background: #333;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer .about {
+  text-align: center;
+  color: #fff;
+  flex: 100%;
+}
+.students {
+  text-align: center;
+  flex: 30%;
+  margin: 20px;
+  background: rgb(78, 159, 185);
+  height: 200px;
+  color: #ebc90b;
+  z-index: 1;
+}
+.reviews {
+  text-align: center;
+  flex: 30%;
+  margin: 20px;
+  background: #8a2f2f;
+  height: 200px;
+  color: #fff;
+  z-index: 1;
+}
+.courses {
+  text-align: center;
+  color: #e6e7f3;
+  flex: 30%;
+  margin: 20px;
+  background: rgb(38, 175, 56);
+  height: 200px;
+  z-index: 1;
+}
+.para {
+  margin-left: 350px;
+  justify-content: center;
+  color: #eee;
+}
+#techsupport {
+  text-align: center;
+  margin-top: 100px;
+  height: 600px;
+}
+.computersupport {
+  display: flex;
+  margin: 100px 50px 50px 200px;
+}
+.computersupport > img {
+  width: 300px;
+}
+.computersupport .text,
+.computersupport .text2,
+.computersupport .text3 {
+  margin-left: 20px;
+  text-align: left;
+}
+#our_courses {
+  text-align: center;
+  margin: 50px;
+  height: 1000px;
+}
+.our_course > img {
+  width: 300px;
+  margin-top: 100px;
+}
+.our_course {
+  margin: 10px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+}
+.our_course h6 {
+  margin: 10px auto;
+  text-align: none;
+  font-size: small;
+  text-align: left;
+}
+.premium_courses {
+  padding: 20px;
+  height: 200px;
+  display: flex;
+  font-size: 25px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.premium_courses button {
+  margin-top: 10px;
+  width: 300px;
+  height: auto;
+}
+.premium_courses > h1 {
+  text-align: center;
+  margin: 50px;
+  flex: 100%;
+  height: 100px;
+}
+.premium_courses .plans1 {
+  flex: 30%;
+  text-align: left;
+  margin-left: 100px;
+  height: 100px;
+}
+.premium_courses .plans2,
+.premium_courses .plans3 {
+  flex: 30%;
+  text-align: left;
+  height: 100px;
+}
+.learntech {
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+}
+.learntech .learntechnow img,
+.learntech .learntechpodcast img,
+.learntech .learntechblog img {
+  width: 300px;
+  height: 200px;
+}
+.learntech h1 {
+  text-align: center;
+  flex: 100%;
+  margin: 80px;
+}
+.learntech .learntechnow,
+.learntech .learntechpodcast,
+.learntech .learntechblog {
+  flex: 25%;
+  margin-left: 50px;
+  font-size: 25px;
+}
+.learntech .learntechnow h6,
+.learntech .learntechpodcast h6,
+.learntech .learntechblog h6 {
+  font-size: small;
+  margin-left: -10px;
+}
+.learntech button {
+  padding: auto;
+}
+form {
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 500px;
+  font-size: 25px;
+  height: 100px;
+}
+form input,
+form textarea,
+form button {
+  padding: 7px;
+  margin: 8px 4px 10px 0px;
+  width: 300px;
+}
